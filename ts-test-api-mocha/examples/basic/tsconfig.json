@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "target",
+        "moduleResolution": "Node",
+        "module": "CommonJS",
+        "rootDir": "src",
+        "target": "ES2015"
+    }
+}

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -eu
+
+"$(npm bin)/tsc"
+
+(
+    cd examples/basic
+    ./setup
+    ./test
+)
