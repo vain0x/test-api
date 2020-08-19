@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -eu
+
+test -d node_modules || npm ci

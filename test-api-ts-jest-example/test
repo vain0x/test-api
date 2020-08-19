@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -eu
+
+./setup
+
+"$(npm bin)/tsc" -b
+"$(npm bin)/mocha" target/index.js

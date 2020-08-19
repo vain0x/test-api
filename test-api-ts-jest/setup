@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -eu
+
+test -d node_modules || npm ci
+
+(
+    cd ../test-api-ts-jest-example
+    ./setup
+)

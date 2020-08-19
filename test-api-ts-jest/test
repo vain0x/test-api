@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -eu
+
+./setup
+
+(
+    cd ../test-api-ts-jest-example
+    ./test
+)
