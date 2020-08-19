@@ -2,5 +2,5 @@
 
 set -eu
 
-"$(npm bin)/tsc"
+"$(npm bin)/tsc" -b
 "$(npm bin)/mocha" target/index.js

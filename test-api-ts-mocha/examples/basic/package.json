@@ -12,6 +12,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "mocha": "^8.1.0",
+    "test-api-ts-mocha": "file:../..",
     "typescript": "^3.9.7"
   }
 }
