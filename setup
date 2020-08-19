@@ -3,6 +3,6 @@
 set -eu
 
 (
-    cd ts-test-api-mocha
+    cd test-api-ts-mocha
     ./setup
 )

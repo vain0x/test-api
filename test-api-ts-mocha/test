@@ -2,10 +2,11 @@
 
 set -eu
 
-"$(npm bin)/tsc"
+./setup
+
+"$(npm bin)/tsc" -b
 
 (
     cd examples/basic
-    ./setup
     ./test
 )

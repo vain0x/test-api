@@ -3,8 +3,3 @@
 set -eu
 
 test -d node_modules || npm ci
-
-test -d node_modules/ts-test-api || \
-    ln -s "$PWD/../../../ts-test-api" node_modules/ts-test-api
-test -d node_modules/ts-test-api-mocha || \
-    ln -s "$PWD/../../../ts-test-api-mocha" node_modules/ts-test-api-mocha

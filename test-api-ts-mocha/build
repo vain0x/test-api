@@ -4,6 +4,6 @@ set -eu
 
 rm -rf target/
 
-"$(npm bin)/tsc" &
+"$(npm bin)/tsc" -b &
 "$(npm bin)/tsc" --outDir target/esm --module ES2015 &
 wait

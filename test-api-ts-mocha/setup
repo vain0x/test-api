@@ -4,9 +4,6 @@ set -eu
 
 test -d node_modules || npm ci
 
-test -d node_modules/ts-test-api || \
-    ln -s "$PWD/../ts-test-api" node_modules/ts-test-api
-
 (
     cd examples/basic
     ./setup
