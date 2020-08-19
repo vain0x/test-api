@@ -5,4 +5,4 @@ set -eu
 ./setup
 
 "$(npm bin)/tsc" -b
-"$(npm bin)/mocha" target/index.js
+"$(npm bin)/jest" --testRegex target/index.js
