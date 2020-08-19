@@ -1,5 +1,5 @@
-import { createMochaTestApi } from "ts-test-api-mocha"
-import { TestGroup } from "ts-test-api"
+import { createMochaTestApi } from "test-api-ts-mocha"
+import { TestGroup } from "test-api-ts"
 
 // Test codes.
 

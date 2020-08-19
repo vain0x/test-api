@@ -1,11 +1,11 @@
 {
-  "name": "ts-test-api-mocha",
+  "name": "test-api-ts-mocha",
   "version": "0.1.0",
-  "description": "Implementation of ts-test-api for mocha",
+  "description": "Implementation of test-api-ts for mocha",
   "main": "target/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vain0x/test-api"
+    "url": "https://github.com/vain0x/test-api-ts"
   },
   "scripts": {
     "test": "./test"

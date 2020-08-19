@@ -9,7 +9,7 @@ import {
   TestGroup,
   GroupedTestApi,
   TestGroupMap,
-} from "ts-test-api"
+} from "test-api-ts"
 
 declare const before: any
 declare const after: any
