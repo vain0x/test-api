@@ -4,5 +4,5 @@ Abstraction layer of test codes for decoupling
 
 ## Projects
 
-- [For TypeScript](./ts-test-api)
-    - [With mocha](./ts-test-api-mocha)
+- [API type definitions](./test-api-ts)
+- [Implementation for mocha](./test-api-ts-mocha)
